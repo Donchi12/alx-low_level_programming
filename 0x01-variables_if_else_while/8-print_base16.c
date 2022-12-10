@@ -12,11 +12,8 @@ int main(void)
 	char low;
 
 	for (d = '0'; d <= '9'; d++)
-		putchar(d);
-	for (low = 'a'; low <= 'f'; low++){
-		putchar(low);
-		putchar('\n');
-	}
-
+	putchar(d);
+	for (low = 'a'; low <= 'f'; low++)
+	putchar(low);
 	return (0);
 }
